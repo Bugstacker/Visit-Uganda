@@ -1,0 +1,84 @@
+
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #141E12;
+    border: 2px solid #141E12;
+}
+
+/* PLACES STYLES */
+
+.place-img {
+    border-radius: 10px;
+    width: 100px;
+}
+
+#header {
+    background-image: url("uganda.jpg");
+    background-size: cover;
+    text-shadow: 0px 0px 3px black;
+    margin-bottom: 0;
+    color: #CCDDE3;
+}
+
+.header-div {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.box-space {
+    padding: 32px 48px;
+}
+
+
+#places {
+    margin-top: 0;
+    background-color: #879C5E;
+}
+
+#places-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.place-card {
+    margin-left: 2em;
+    text-align: left;
+}
+
+#article-container {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #CCDDE3;
+    border-bottom: 8px solid #141E12;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+}
+
+.guide-img {
+    width: 50%;
+    margin-right: 2em;
+    border-radius: 100px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
+    padding: 1em 0;
+    font-size: large;
+}
+
+a {
+    color: #141E12;
+}
