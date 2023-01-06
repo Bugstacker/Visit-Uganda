@@ -6,10 +6,14 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
     color: #141E12;
     border: 2px solid #141E12;
+}
+
+h1, h3 {
+    text-transform: uppercase;
 }
 
 /* PLACES STYLES */
@@ -38,16 +42,18 @@ body {
 
 
 #places {
-    margin-top: 0;
     background-color: #879C5E;
 }
 
 #places-container {
+    max-width: 1000px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .place-card {
+    width: 25%;
     margin-left: 2em;
     text-align: left;
 }
